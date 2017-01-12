@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>Spring MyContact</title>
+    <link href="logo.png" rel="shortcut icon" />
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom style -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Spring MyContact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container main-content list">
+        <div class="row">
+          <a href="#" class="btn btn-success pull-left"><span class="glyphicon glyphicon-plus"></span> Add new contact</a>
+          <form class="form-inline pull-right" action="#" method="GET">
+            <div class="form-group">
+              <input type="text" class="form-control" name="q" placeholder="Type contact name..." />
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+        <div class="row">
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Edit</th>
+                <th>Delete</th>              
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Nguyen Tuan Anh</td>
+                <td>yuen@gmail.com</td>
+                <td>0123456789</td>
+                <td><a href="#"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Nguyen Tuan Anh</td>
+                <td>yuen@gmail.com</td>
+                <td>0123456789</td>
+                <td><a href="#"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
+              </tr>
+               <tr>
+                <td>3</td>
+                <td>Nguyen Tuan Anh</td>
+                <td>yuen@gmail.com</td>
+                <td>0123456789</td>
+                <td><a href="#"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
+              </tr>
+               <tr>
+                <td>4</td>
+                <td>Nguyen Tuan Anh</td>
+                <td>yuen@gmail.com</td>
+                <td>0123456789</td>
+                <td><a href="#"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
+              </tr>
+            </tbody>
+          </table>          
+        </div>
+    </div><!-- /.container -->
+
+    <footer class="container">
+      &copy; 2017 Yuen
+    </footer>
+  </body>
+</html>
