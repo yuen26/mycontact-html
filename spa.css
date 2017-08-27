@@ -1,0 +1,19 @@
+body {
+	background-color: #FAFAFA;
+}
+
+#header {
+	margin: 30px auto;
+}
+
+#list-heading {
+	margin-top: 20px;
+}
+
+table {
+	background-color: #FFF;
+}
+
+table tr:hover {
+	cursor: pointer;
+}

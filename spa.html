@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="spa.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="header" class="row">
+        <div class="col">
+          <h3 class="text-center">My Contact App</h3>
+        </div>
+      </div>
+
+      <div id="main" class="row">
+
+        <!-- LEFT AREA -->
+        <div class="col">
+          <div class="row">
+            <div class="col-8">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search name ...">
+                <span class="input-group-addon">
+                  <i class="fa fa-search"></i>
+                </span>
+              </div>
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn btn-success">
+                <i class="fa fa-plus"></i> New contact
+              </button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <h5 id="list-heading">List of contacts</h5>
+              <table class="table table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark Otto</td>
+                    <td>markotto@gmail.com</td>
+                    <td>0123456789</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Mark Otto</td>
+                    <td>markotto@gmail.com</td>
+                    <td>0123456789</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Mark Otto</td>
+                    <td>markotto@gmail.com</td>
+                    <td>0123456789</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT AREA -->
+        <div class="col offset-1">
+          <div class="form-group row">
+            <label class="col-2 col-form-label">Name</label>
+            <div class="col-10">
+              <input class="form-control" type="text" value="Mark Otto">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-2 col-form-label">Name</label>
+            <div class="col-10">
+              <input class="form-control" type="email" value="markotto@gmail.com">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-2 col-form-label">Phone</label>
+            <div class="col-10">
+              <input class="form-control" type="tel" value="0123456789">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-10 offset-2">
+              <button type="submit" class="btn btn-primary">
+                <i class="fa fa-floppy-o"></i> Save
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="fa fa-trash-o"></i> Delete
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- END row -->
+    </div><!-- END container -->
+    
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
