@@ -1,0 +1,21 @@
+body {
+	background-color: #FAFAFA;
+}
+
+#main-content {
+	min-height: 500px;
+	margin-top: 50px;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.table th, td {
+   text-align: center;   
+}
+
+.field-error {
+	border-color: #FF0000;
+	margin-bottom: 10px;	
+}
